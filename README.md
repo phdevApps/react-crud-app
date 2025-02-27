@@ -79,8 +79,8 @@ This application follows Clean Architecture principles with a strict separation 
 
 ### Prerequisites
 
-- Node.js (v14.0.0 or later)
-- npm or yarn
+- Node.js 
+- npm
 
 ### Installation
 
@@ -93,15 +93,11 @@ This application follows Clean Architecture principles with a strict separation 
 2. Install dependencies:
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
 3. Start the development server:
    ```bash
-   npm run dev
-   # or
-   yarn dev
+   vite
    ```
 
 4. Open your browser and navigate to `http://localhost:5173`
@@ -109,9 +105,7 @@ This application follows Clean Architecture principles with a strict separation 
 ### Building for Production
 
 ```bash
-npm run build
-# or
-yarn build
+vite build
 ```
 
 ## 📁 Project Structure
